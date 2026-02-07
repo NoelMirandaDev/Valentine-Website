@@ -20,7 +20,8 @@ body {
     background: radial-gradient(circle at top, var(--bg2), var(--bg1));
     font-family: system-ui, -apple-system, Arial, sans-serif;
     color: var(--text);
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 18px;
 }
 
@@ -141,5 +142,15 @@ button:active {
 
     #yes {
         width: 86%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        margin-bottom: 40px;
+    }
+    body {
+        align-items: flex-start;
+        padding-top: 40px;
     }
 }
