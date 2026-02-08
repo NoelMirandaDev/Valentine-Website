@@ -30,7 +30,7 @@ yesBtn.addEventListener("click", () => {
 
     document.querySelector(".card").innerHTML = `
     <div class="result">
-        <h1>Fuck yeah!!! Jennifer Salgado is my valentine! 💖</h1>
+        <h1>Ohh yeah!!! Jennifer Salgado is my valentine! 💖</h1>
         <p class="small">
         Be ready for our date next week! 🌸
         </p>
